@@ -65,7 +65,8 @@
                 max-width: 375px !important;
             }
             @include tablet {
-                max-width: 350px;
+                // max-width: 350px;
+                width: 100%;
             }
             @include laptop {
                 width: 400px;
@@ -84,7 +85,8 @@
                     max-width: 375px;
                 }
                 @include tablet {
-                    width: 350px;
+                    width: 100%;
+                    justify-content: space-around;
                 }
                 .footer__right--part {
                     .right__part--title {

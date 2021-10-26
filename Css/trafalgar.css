@@ -1315,7 +1315,7 @@ table {
 
 @media (min-width: 481px) and (max-width: 768px) {
   #Footer .footer .footer__section--right {
-    max-width: 350px;
+    width: 100%;
   }
 }
 
@@ -1355,7 +1355,9 @@ table {
 
 @media (min-width: 481px) and (max-width: 768px) {
   #Footer .footer .footer__section--right .footer__right {
-    width: 350px;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
